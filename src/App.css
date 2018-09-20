@@ -13,7 +13,10 @@
   padding: 20px;
   color: white;
 }
-
+.activeCard{
+    color: green;
+    background: red;
+}
 .App-title {
   font-size: 1.5em;
 }
