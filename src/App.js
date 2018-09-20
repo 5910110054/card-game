@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className = "card">
-        {
+        {555555
           Array.from(word).map((c,i)=><CharacterCard value={c} key={i}/>)
         }
         
