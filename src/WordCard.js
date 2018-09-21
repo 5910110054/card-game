@@ -44,7 +44,8 @@ export default class WordCard extends Component {
                 }
                 <p>Round : {this.state.attemt}</p>
                 <b>{this.state.completed? "!!You Win!!" : ""}</b>
-                <button type="submit" onClick={this.refreshPage}>NewGame</button>
+                <div>
+                <button type="submit" onClick={this.refreshPage}>AGAIN</button></div>
             </div>
         )
     }
