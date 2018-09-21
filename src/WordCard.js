@@ -40,7 +40,7 @@ export default class WordCard extends Component {
                     )
                 }
                 <p>Round : {this.state.attemt}</p>
-                <p>{this.state.completed? "you win" : ""}</p>
+                <b>{this.state.completed? "!!You Win!!" : ""}</b>
             </div>
         )
     }
