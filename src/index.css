@@ -2,8 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url(https://ae01.alicdn.com/kf/HTB1L3j_QFXXXXbYXpXXq6xXFXXXf/Hot-Sales-ArtFabric-fabric-cloth-Printed-photography-background-Vintage-Clounds-Newborns-Photography-Backdrop-Customize-D-7716.jpg);
 }
 .card{
   text-align: center;
-  color: cyan;
+  color: black;
 }
