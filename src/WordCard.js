@@ -29,6 +29,9 @@ export default class WordCard extends Component {
             }
         }
     }
+    refreshPage(){
+        window.location.reload();
+    }
 
     render(){
         return(
@@ -41,6 +44,7 @@ export default class WordCard extends Component {
                 }
                 <p>Round : {this.state.attemt}</p>
                 <b>{this.state.completed? "!!You Win!!" : ""}</b>
+                <button type="submit" onClick={this.refreshPage}>NewGame</button>
             </div>
         )
     }
